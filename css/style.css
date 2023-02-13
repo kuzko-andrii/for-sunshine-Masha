@@ -315,7 +315,7 @@ section {
 .reasons__reason_img img {
   max-height: 330px;
   border-radius: 2px;
-  width: 25vw;
+  max-width: 25vw;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -535,6 +535,7 @@ section {
     max-width: 300px;
   }
   .reasons__reason_img {
+    width: 25vw;
     max-height: 340px;
     height: auto;
   }
